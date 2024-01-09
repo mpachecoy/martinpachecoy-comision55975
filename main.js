@@ -4,7 +4,7 @@ function saludo(){
 
     let inicio = confirm("Bienvenido!!, actualmente estamos mejorando nuestra tienda online. Te gustaria recibir una notificacion cuando este disponible?? ")
     
-    let contactos = []
+    let contactos = ["Martin Pachecoy, mp@gmial.com", "Juan Perez, jp@hotmail.com",]
     if(inicio == true){    
         let nombre = prompt("Ingresa tu nombre, apellido y seguido tu correo electronico.")
         if(nombre != ""){
