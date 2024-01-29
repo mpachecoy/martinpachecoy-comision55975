@@ -1,0 +1,35 @@
+/* Pagina REDES SOCIALES */
+
+.redessociales{
+    display: flex;
+    flex-direction: column;
+    h1{
+        text-align: center;
+        padding: 20px;
+        text-shadow: 0px 4px 13px rgba(0,0,0,0.5); 
+    }
+    .posteos-instagram{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    p{
+        text-align: justify;
+        padding: 20px;
+    }
+    .posteos-facebook{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .productos-tienda{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+}

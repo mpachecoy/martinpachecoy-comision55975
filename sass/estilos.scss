@@ -1,0 +1,40 @@
+/*Mantener el orde de ubicacion de codigo - CSS lee de arriba hacia abajo */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+/*font-family: 'Maven Pro', sans-serif;*/
+
+/* Variables */
+$bg-gral: skyblue; 
+$sombra-txt: 0px 4px 13px rgba(0,0,0,0.5);
+$font:'Maven Pro', sans-serif;
+
+/* el asterisco es el selector universal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Maven Pro', sans-serif;
+    font-size: 62.5%;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.5rem;
+}
+p{
+    font-size: 2.5rem;
+}
+
+
+@import "partials/index";
+@import "partials/footer";
+@import "partials/historia";
+@import "partials/novedades";
+@import "partials/productos";
+@import "partials/redessociales";
