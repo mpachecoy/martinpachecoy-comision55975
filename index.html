@@ -45,19 +45,28 @@
     </header>
  
     
-    
-    <main>
 
-            <h1 class="titulo" > Bienvenidos a La Calandria Muebles y Aberturas </h1>
-        
-            <input id="Nombre" type="text">
-            <input id="Apellido" type="text">
-            <input id="Correo" type="text">   
+    <main>
+         <h1 class="titulo" > Bienvenidos a La Calandria Muebles y Aberturas </h1>
+
+        <div class="container-fluid">
+            <p class="text-center"> Actualmente nuestra pagina se encuentra en remodelacion, dejanos tus datos y nos comunicamos cuanto este nuevamente en funcionamiento.</p>      
+        </div>         
+      
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="correo">Correo:</label>
+            <input type="text" id="correo" name="correo" required>
+    
+            <button type="button" onclick="guardarDatos()">Guardar</button>
+        </form>          
         
     </main> 
-
-
-
 
     <footer>
 
