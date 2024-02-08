@@ -52,6 +52,7 @@
 
 // Array para almacenar las personas que seran nuestra base de datos para avisar cuando este en funcionamiento la pagina
 let personas = [];
+
 //Mostras en la consola las personas que se van agregando a nuestra base de datos
 console.table(personas)
 
@@ -71,8 +72,11 @@ function guardarDatos() {
             apellido: apellido,
             correo: correo
             };
-                
+        
+        console.log(persona);
         personas.push(persona);
+        localStoragePersonas(persona);
+
         alert("Muchas gracias!");   
         // Limpiar el formulario
         document.getElementById("formulario").reset();
@@ -82,6 +86,6 @@ function guardarDatos() {
     }
 }
 
-
-
-
+function localStoragePersonas(personas){
+    localStorage.setItem('localPersonas', JSON.stringify(personas));
+}
